@@ -78,6 +78,50 @@ query = "What is the application of prompting in NLP?"
 ### Step 2: Answer with Gemini Pro using LangChain Tool
 ### Step 3: Evaluate for hallucinations
 
+### 1. Clone the repository
+
+git clone https://github.com/yourusername/FakeBuster.git
+cd FakeBuster
+
+### 2. Install Dependencies
+pip install -r requirements.txt
+
+### 3. Run Inference
+python src/main.py --input "sample_tweet.txt" --type text
+
+📌 Use Cases
+- Social media moderation
+
+- Fact-checking in journalism
+
+- Real-time browser plugin for misinformation detection
+
+- Media literacy tools
+
+🛣️ Roadmap
+ - Text fake news detection + explainability
+
+ - Image deepfake detection
+
+ - Video deepfake classification
+
+ - Web UI (Streamlit)
+
+ - API Integration (FastAPI)
+
+ - Evaluation Dashboard
+
+🤝 Contributing
+Contributions are welcome!
+
+- Fork the repo
+
+- Create your branch: feature/your-feature-name
+
+- Commit your changes
+
+- Open a Pull Request
+
 ## 📖 Read the Full Article
 
 📝 I’ve documented the full journey, technical architecture, and key learnings in this Medium blog:
